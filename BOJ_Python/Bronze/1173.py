@@ -20,7 +20,7 @@ while True :
     elif now > M - T :   # 현재 맥박에 운동을 했을 떄 M을 초과하면
         now = now - R   # 무조건 휴식
         cnt += 1   # 총 걸린 시간 증가
-    else :   # 위에 모두 해당하지 않으면 최
-        now = now + T
-        exer_cnt += 1
-        cnt += 1
+    else :   # 위에 모두 해당하지 않으면 총 걸린 시간의 최소값을 구해야 하므로
+        now = now + T   # 무조건 운동
+        exer_cnt += 1   # 운동한 시간 증가
+        cnt += 1   # 총 걸린 시간 증가
