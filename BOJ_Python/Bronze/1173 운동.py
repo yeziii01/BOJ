@@ -8,7 +8,7 @@ while True :
     if m + T > M:   # 운동을 N분 할 수 없을 때
         print("-1")   # -1 출력
         break   # 종료
-    if exer_cnt == N :   # 운동한 시간이 N과 같을 떄
+    if exer_cnt == N :   # 운동한 시간이 N과 같을 때
         print(cnt)   # 총 걸린 시간 출력
         break   # 종료
     if now < m :   # 현재 맥박이 m보다 작으면
